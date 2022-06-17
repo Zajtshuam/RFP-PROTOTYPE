@@ -18,7 +18,7 @@ export default function App() {
     key: index,
     from: { opacity: 0},
     enter: { opacity: 2 },
-    leave: { opacity: 0 },
+    leave: { opacity: -10},
     config: { duration: 3000 },
     onRest: (_a, _b, item) => {
       if (index === item) {
