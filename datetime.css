@@ -1,0 +1,40 @@
+.date{
+
+
+
+    color: lightblue;
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.glow {
+
+    color: lightblue;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+/* @keyframes date {
+    from {
+      opacity: 55s;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes glow {
+    from{
+      opacity: 55s;
+    }
+  
+    to{
+      opacity: 0;
+    }
+  } */
