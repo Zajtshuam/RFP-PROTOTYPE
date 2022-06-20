@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import FirstPage from './Pages/FirstPage'
-import SecondPage from './Pages/SecondPage'
-import ThirdPage from './Pages/ThirdPage'
+import FirstPage from './pages/FirstPage'
+import SecondPage from './pages/SecondPage'
+import ThirdPage from './pages/ThirdPage'
 
 export default function App() {
 
