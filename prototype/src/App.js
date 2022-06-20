@@ -29,14 +29,20 @@ export default function App() {
   })
   return (
     <div>
+      <Router>
+        <Link>      {transitions((style, i) => (
+        <animated.div
+          className='bg'
+          style={{
+            ...style,
+            backgroundImage: `url(${slides[i]})`,         
+            }}
+          />
+        ))}
     <div className="flex fill center">
-      <div>
-      <div>
       <div className="Clocker">
       <Clock></Clock>
       </div>
-      <div>
-      <div>
       <div>
         </div>
       {transitions((style, i) => (
@@ -48,10 +54,7 @@ export default function App() {
           }}
         />
       ))}
-    </div>
-    </div>
-    </div>
-    </div>
+      </Router>
     </div>
     </div>
   )
